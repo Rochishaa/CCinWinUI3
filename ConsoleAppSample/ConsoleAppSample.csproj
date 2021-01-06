@@ -8,14 +8,14 @@
 
   <PropertyGroup>
     <RestoreSources>
-	  https://api.nuget.org/v3/index.json;
-	  ../SimpleMathProjection/nuget
+      https://api.nuget.org/v3/index.json;
+      ../../CppWinRTProjectionSample/SimpleMathProjection/nuget
     </RestoreSources>
   </PropertyGroup>
 	
   <ItemGroup>
-	<PackageReference Include="Microsoft.VCRTForwarders.140" Version="1.0.6" />
-    <PackageReference Include="SimpleMathComponent" Version="0.1.0-prerelease" />
+	<PackageReference Include="Microsoft.VCRTForwarders.140" Version="1.0.7" />
+	<PackageReference Include="SimpleMathComponent" Version="0.1.0-prerelease" />
   </ItemGroup>
 	
 </Project>

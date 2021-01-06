@@ -4,10 +4,14 @@
     <TargetFramework>net5.0-windows10.0.19041.0</TargetFramework>
     <Platforms>x64</Platforms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.19041.1" />
+  </ItemGroup>
 	
   <ItemGroup>
     <ProjectReference Include="..\SimpleMathComponent\SimpleMathComponent.vcxproj" />
-    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="1.0.1" />
   </ItemGroup>
 
   <!--CsWinRT properties-->
@@ -25,8 +29,5 @@
   </PropertyGroup>
 
   <!--Specify Windows SDK Metadata-->
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.19041.1" />
-  </ItemGroup>
 
 </Project>
